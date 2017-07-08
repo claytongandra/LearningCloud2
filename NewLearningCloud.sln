@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{11D61168-9F2C-42F0-BBEB-70146771C4BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{9DAA0263-FAEE-4C37-813C-C00E9359D53E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{D1A74E41-53AF-4B0E-8D80-0F9770DF62FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{10264249-2639-4FE8-97DF-25CD12491308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{BE2BC8D5-C2DC-4FC8-899F-3A83998E7BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{90F71EE4-4C04-4060-AA4F-EF451FF1086F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLearningCloud.MVC", "NewLearningCloud.MVC\NewLearningCloud.MVC.csproj", "{35E1C35F-3119-48D6-96C3-9F6AABD1EC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLearningCloud.Domain", "LearningCloud.Domain\NewLearningCloud.Domain.csproj", "{6984A27B-E2E6-49DA-B2CE-AD81762AFC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLearningCloud.Infra.Data", "NewLearningCloud.Infra.Data\NewLearningCloud.Infra.Data.csproj", "{C47CC231-8272-4D38-80F9-30F8C4E0B3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLearningCloud.Application", "NewLearningCloud.Application\NewLearningCloud.Application.csproj", "{B3F7401A-4937-4197-B47A-F965FC7C464F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35E1C35F-3119-48D6-96C3-9F6AABD1EC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E1C35F-3119-48D6-96C3-9F6AABD1EC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E1C35F-3119-48D6-96C3-9F6AABD1EC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E1C35F-3119-48D6-96C3-9F6AABD1EC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6984A27B-E2E6-49DA-B2CE-AD81762AFC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6984A27B-E2E6-49DA-B2CE-AD81762AFC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6984A27B-E2E6-49DA-B2CE-AD81762AFC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6984A27B-E2E6-49DA-B2CE-AD81762AFC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47CC231-8272-4D38-80F9-30F8C4E0B3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47CC231-8272-4D38-80F9-30F8C4E0B3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47CC231-8272-4D38-80F9-30F8C4E0B3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47CC231-8272-4D38-80F9-30F8C4E0B3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F7401A-4937-4197-B47A-F965FC7C464F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F7401A-4937-4197-B47A-F965FC7C464F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F7401A-4937-4197-B47A-F965FC7C464F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F7401A-4937-4197-B47A-F965FC7C464F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE2BC8D5-C2DC-4FC8-899F-3A83998E7BD7} = {10264249-2639-4FE8-97DF-25CD12491308}
+		{90F71EE4-4C04-4060-AA4F-EF451FF1086F} = {10264249-2639-4FE8-97DF-25CD12491308}
+		{35E1C35F-3119-48D6-96C3-9F6AABD1EC70} = {11D61168-9F2C-42F0-BBEB-70146771C4BF}
+		{6984A27B-E2E6-49DA-B2CE-AD81762AFC75} = {D1A74E41-53AF-4B0E-8D80-0F9770DF62FD}
+		{C47CC231-8272-4D38-80F9-30F8C4E0B3F7} = {BE2BC8D5-C2DC-4FC8-899F-3A83998E7BD7}
+		{B3F7401A-4937-4197-B47A-F965FC7C464F} = {9DAA0263-FAEE-4C37-813C-C00E9359D53E}
+	EndGlobalSection
+EndGlobal
