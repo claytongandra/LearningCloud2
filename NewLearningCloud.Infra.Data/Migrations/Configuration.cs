@@ -27,9 +27,17 @@ namespace NewLearningCloud.Infra.Data.Migrations
                new AssinaturaNivel()
                {
                    AssinaturaNivel_Id = 2,
+                   AssinaturaNivel_Titulo = "Assinatura Básica",
+                   AssinaturaNivel_Descricao = "Assinatura Básica - Usuários com acessos a conteúdos privilegiados",
+                   AssinaturaNivel_Nivel = 20,
+                   AssinaturaNivel_Status = "I"
+               },
+               new AssinaturaNivel()
+               {
+                   AssinaturaNivel_Id = 3,
                    AssinaturaNivel_Titulo = "Assinatura Premium",
                    AssinaturaNivel_Descricao = "Assinatura Premium - Usuários com acessos a todos os conteúdos",
-                   AssinaturaNivel_Nivel = 20,
+                   AssinaturaNivel_Nivel = 30,
                    AssinaturaNivel_Status = "A"
 
                });

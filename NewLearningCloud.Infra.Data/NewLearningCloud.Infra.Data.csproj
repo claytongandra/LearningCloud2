@@ -38,9 +38,14 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,17 +55,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\NewLearningCloudContext.cs" />
+    <Compile Include="Context\UsuarioNewLearningCloudContext.cs" />
     <Compile Include="EntitiesConfig\AssinaturaNivelConfiguration.cs" />
     <Compile Include="EntitiesConfig\AulaConfiguration.cs" />
+    <Compile Include="EntitiesConfig\UsuarioAcessoConfiguration.cs" />
+    <Compile Include="EntitiesConfig\UsuarioConfiguration.cs" />
+    <Compile Include="EntityFramework\ContextManager.cs" />
+    <Compile Include="EntityFramework\UnitOfWorkRepository.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AssinaturaNivelRepository.cs" />
+    <Compile Include="Repositories\AulaRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UsuarioAcessoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EntityFramework\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LearningCloud.Domain\NewLearningCloud.Domain.csproj">
+    <ProjectReference Include="..\NewLearningCloud.Domain\NewLearningCloud.Domain.csproj">
       <Project>{6984a27b-e2e6-49da-b2ce-ad81762afc75}</Project>
       <Name>NewLearningCloud.Domain</Name>
     </ProjectReference>

@@ -11,6 +11,7 @@ namespace NewLearningCloud.Infra.Data.Context
         public NewLearningCloudContext()
             : base("NewLearningCloud") //Nome da Base de Dados
         {
+            bool instanceExists = System.Data.Entity.SqlServer.SqlProviderServices.Instance != null;
         }
 
         public DbSet<Aula> Aulas { get; set; }

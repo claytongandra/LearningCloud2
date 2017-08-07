@@ -20,5 +20,17 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    /*max-width: 280px;*/
 }
+
+.field-validation-error {
+    display:block;
+}
+
+.btn-labeled {padding-top:0; padding-bottom:0;}
+.btn-label {position:relative; left:-12px; display:inline-block; padding:6px 12px; background:rgba(0,0,0,0.15); border-radius:3px 0 0 3px; border:1px none #4cff00; width:40px}
+.btn-label-text{display: inline-block; text-align:left; min-width:210px; border:1px none #00f7ff;}
+.btn-label-textmini {display: inline-block; text-align:left; min-width:70px; border:1px none #00f7ff;}
+
+
+
